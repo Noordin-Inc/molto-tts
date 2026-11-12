@@ -1,0 +1,31 @@
+# Rust / Cargo
+/target/
+**/*.rs.bk
+*.bk
+
+# Build artifacts & backup copies
+*.old
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.obj
+
+# IDE & Editor files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Operating System files
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Distribution & Packaging (local / machine-specific)
+package.ps1
+/dist/
+*.zip

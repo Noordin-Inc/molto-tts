@@ -1,0 +1,16 @@
+[package]
+name = "molto-engine"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "molto_tts_engine"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+molto-core = { path = "../molto-core" }
+windows = { workspace = true }
+windows-core = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+ahash = { workspace = true }

@@ -1,0 +1,18 @@
+[package]
+name = "molto-gui"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "molto-tts"
+path = "src/main.rs"
+
+[dependencies]
+molto-core = { path = "../molto-core" }
+winsafe = { workspace = true }
+windows = { workspace = true }
+whatlang = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+uuid = { workspace = true }
+directories = { workspace = true }
